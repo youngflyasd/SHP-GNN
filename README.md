@@ -1,7 +1,7 @@
-## Simplifying Graph Convolutional Networks
+## Simple Hierarchical PageRank Graph Convolutional Networks
 
 ### Overview
-This repo contains an example implementation of the simple hierarchical PageRank GNN (SHP-GNN) model.
+This repo contains an example implementation of the simple hierarchical PageRank graph convolutional network (SHP-GNN) model.
 
 This code is based on SGC. SGC removes the nonlinearities and collapes the weight matrices in Graph Convolutional Networks (GCNs) and is essentially a linear model. However, it also cannot beat GCNs in most benchmarks. SHP-GNN is a new baseline method based on PageRank.
 
