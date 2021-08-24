@@ -23,10 +23,12 @@ Our implementation works with PyTorch>=1.0.0 Install other dependencies: `$ pip 
 We provide the citation network datasets under `data/`, which corresponds to [the public data splits](https://github.com/tkipf/gcn/tree/master/gcn/data).
 
 ### Usage
+
+```
 $ python citation.py --dataset cora     --combine max --degree 16 --epochs 500 
 $ python citation.py --dataset citeseer --combine max --degree 4 --epochs 150 
 $ python citation.py --dataset pubmed   --combine max --degree 32 --epochs 150 
-
+```
 ### Acknowledgement
 This repo is modified from [SGC](https://github.com/Tiiiger/SGC), and [SSGC](https://github.com/allenhaozhu/SSGC).
 
