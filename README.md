@@ -24,7 +24,9 @@ We provide the citation network datasets under `data/`, which corresponds to [th
 
 ### Usage
 $ python citation.py --dataset cora     --combine max --degree 16 --epochs 500
+
 $ python citation.py --dataset citeseer --combine max --degree 4 --epochs 150
+
 $ python citation.py --dataset pubmed   --combine max --degree 32 --epochs 150
 
 ### Acknowledgement
